@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(157, 255, 0);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    border-bottom: 3px solid black;
+    border-radius: 15px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 30px 15px 15px 15px;
+    background: rgb(14, 0, 164);
+    
+    border-radius: 10px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputs input {
+    display: block;
+    width: 500px;
+    height: 40px;
+    margin-bottom: 16px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.btn-action {
+    background: rgb(249, 100, 0);
+    margin-top: 20px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn-action a {
+    text-decoration: none;
+    color: white;
+}
+
+.list {
+    background: rgb(177, 253, 0);
+    margin: 30px auto 20px auto;
+    padding: 15px;
+    width: 800px;
+    min-height: 500px;
+    
+    border-radius: 10px;
+    
+}
+
+.item {
+    background: rgb(70, 0, 75);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+
+.main {
+    flex-direction: column;
+}
+
+.main div {
+    margin: 0 0 10px 0;
+    color: white;
+}
+
+.item .name {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn {
+    text-align: center;
+}
+.btn a {
+    background: rgb(255, 39, 39);
+    width: 160px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    display: inline-block;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.options {
+    width: 760px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.act, .see, .sort {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.search {
+    width: 230px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+}
+
+.item .btn {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit {
+    display: none;
+}
